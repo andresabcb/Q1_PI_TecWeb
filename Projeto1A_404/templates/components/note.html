@@ -1,0 +1,11 @@
+<li class="card">
+  <h3 class="card-title">{title}</h3>
+  <div class="card-content">
+    <p>{details}</p>
+  </div>
+  <a href="/edit/{id}">Editar</a>
+  <form action="/deletar" method="POST">
+    <input type="hidden" name="id" value="{id}" />
+    <input type="submit" value="X" />
+  </form>
+</li>
